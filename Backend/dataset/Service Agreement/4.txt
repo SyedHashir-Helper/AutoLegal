@@ -1,0 +1,15 @@
+SERVICE AGREEMENT
+
+Dated April 20, 2025, between TechSupport Pro (“Provider”) and FoodExpress (“Client”).
+
+1. SLA: 99.5%.
+
+2. Response time: Within 6 hours.
+
+3. No service credits provisioned.
+
+4. All scope change requests must be approved by Client’s project lead in writing.
+
+5. Annual renewal with 60-days prior notice.
+
+EXECUTED...

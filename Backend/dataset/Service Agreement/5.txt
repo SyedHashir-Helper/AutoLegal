@@ -1,0 +1,15 @@
+SERVICE AGREEMENT
+
+Effective June 11, 2025, by DataCare (“Provider”) for MedHealth (“Client”).
+
+1. Uptime guarantee: 99.95%.
+
+2. Response time: 2 hours.
+
+3. Downtime credits apply: Yes.
+
+4. Scope changes: Require signed change order.
+
+5. Renewal reminders sent 45 days before end.
+
+SIGNED Peter Lee...

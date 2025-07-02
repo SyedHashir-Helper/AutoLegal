@@ -1,0 +1,15 @@
+FREELANCER AGREEMENT
+
+This Agreement is entered July 1, 2025, by TechConnect (“Client”) and Bilal Ahmed (“Freelancer”).
+
+1. Services: Backend API development.
+
+2. Client owns all source code; Freelancer may showcase generic modules.
+
+3. Fee: $3,200 fixed, milestone‑based (50%/50%).
+
+4. Freelancer receives biweekly payments.
+
+5. Termination: 14‑day notice.
+
+Signed by both...

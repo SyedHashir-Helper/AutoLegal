@@ -1,0 +1,278 @@
+{
+  "document_type": "Statement of Work (SOW)",
+  "template_version": "1.0",
+  "structure": {
+    "title": {
+      "type": "heading",
+      "level": 1,
+      "content": "Statement of Work (SOW)"
+    },
+    "header_section": {
+      "type": "header_details",
+      "content": [
+        {
+          "label": "Date:",
+          "value": "{{document_date}}"
+        },
+        {
+          "label": "Project Title:",
+          "value": "{{project_title}}"
+        }
+      ]
+    },
+    "parties": {
+      "type": "section",
+      "content": "",
+      "subsections": {
+        "client": {
+          "type": "party_details",
+          "label": "Client:",
+          "fields": {
+            "company_name": "{{client.company_name}}",
+            "address": "{{client.address}}",
+            "email": "{{client.email}}"
+          }
+        },
+        "service_provider": {
+          "type": "party_details",
+          "label": "Service Provider:",
+          "fields": {
+            "name": "{{service_provider.name}}",
+            "email": "{{service_provider.email}}",
+            "address": "{{service_provider.address}}"
+          }
+        }
+      }
+    },
+    "sections": [
+      {
+        "number": "1",
+        "title": "Parties",
+        "type": "parties_reference",
+        "content": "This Statement of Work is entered into between the Client and Service Provider as detailed above."
+      },
+      {
+        "number": "2",
+        "title": "{{objective_section_title}}",
+        "type": "objective_section",
+        "content": "{{project_objective}}"
+      },
+      {
+        "number": "3",
+        "title": "Scope of Work",
+        "type": "scope_section",
+        "content": "The Service Provider shall deliver the following services:",
+        "subsections": {
+          "type": "bullet_list",
+          "items": "{{scope_of_work}}"
+        }
+      },
+      {
+        "number": "4",
+        "title": "Timeline",
+        "type": "timeline_section",
+        "content": "Project Timeline Details:",
+        "subsections": {
+          "type": "timeline_details",
+          "items": [
+            {
+              "label": "Project Duration:",
+              "value": "{{timeline.duration}}"
+            },
+            {
+              "label": "Start Date:",
+              "value": "{{timeline.start_date}}"
+            },
+            {
+              "label": "End Date:",
+              "value": "{{timeline.end_date}}"
+            }
+          ]
+        }
+      },
+      {
+        "number": "5",
+        "title": "Deliverables",
+        "type": "deliverables_section",
+        "content": "The following deliverables will be provided upon project completion:",
+        "subsections": {
+          "type": "bullet_list",
+          "items": "{{deliverables}}"
+        }
+      },
+      {
+        "number": "6",
+        "title": "Payment Terms",
+        "type": "payment_section",
+        "content": "Payment Structure and Terms:",
+        "subsections": {
+          "type": "payment_details",
+          "items": [
+            {
+              "label": "Total Project Fee:",
+              "value": "{{payment.total_fee}}"
+            },
+            {
+              "label": "Payment Schedule:",
+              "value": "{{payment.schedule}}"
+            },
+            {
+              "label": "Payment Method:",
+              "value": "{{payment.method}}"
+            }
+          ]
+        }
+      },
+      {
+        "number": "7",
+        "title": "Assumptions",
+        "type": "assumptions_section",
+        "content": "This project is based on the following assumptions:",
+        "subsections": {
+          "type": "bullet_list",
+          "items": "{{assumptions}}"
+        }
+      },
+      {
+        "number": "8",
+        "title": "{{additional_terms_title}}",
+        "type": "additional_terms_section",
+        "content": "{{additional_terms_content}}"
+      },
+      {
+        "number": "9",
+        "title": "Termination",
+        "type": "termination_section",
+        "content": "{{termination_clause}}"
+      },
+      {
+        "number": "10",
+        "title": "{{final_section_title}}",
+        "type": "approval_section",
+        "content": "{{approval_clause}}"
+      }
+    ],
+    "signature_section": {
+      "type": "signature_block",
+      "content": "",
+      "signatures": {
+        "client": {
+          "label": "{{client.company_name}}",
+          "fields": {
+            "name": "Name: {{client.signatory_name}}",
+            "title": "Title: {{client.signatory_title}}"
+          }
+        },
+        "service_provider": {
+          "label": "{{service_provider.name}}",
+          "fields": {
+            "name": "Name: {{service_provider.signatory_name}}",
+            "title": "Title: {{service_provider.signatory_title}}"
+          }
+        }
+      }
+    }
+  },
+  "input_data": {
+    "document_date": "June 29, 2025",
+    "project_title": "Website Redesign & SEO Optimization",
+    "client": {
+      "company_name": "FastRetail Ltd.",
+      "address": "56 Mall Road, Karachi, Pakistan",
+      "email": "marketing@fastretail.pk",
+      "signatory_name": "Sarah Malik",
+      "signatory_title": "Marketing Head"
+    },
+    "service_provider": {
+      "name": "Hashir Digital Services",
+      "email": "hashir.services@gmail.com",
+      "address": "Johar Town, Lahore",
+      "signatory_name": "Syed Hashir",
+      "signatory_title": "Freelancer / Owner"
+    },
+    "objective_section_title": "Project Objective",
+    "project_objective": "Complete redesign and optimization of the client's e-commerce website to improve user experience, mobile responsiveness, and search engine visibility.",
+    "scope_of_work": [
+      {
+        "content": "Redesign of e-commerce homepage, product pages, and checkout flow with modern UI/UX principles"
+      },
+      {
+        "content": "Implementation of mobile responsiveness across all pages and devices"
+      },
+      {
+        "content": "Basic SEO optimization including on-page optimization and technical SEO improvements"
+      },
+      {
+        "content": "Google Analytics setup and configuration for comprehensive tracking"
+      },
+      {
+        "content": "Performance optimization to improve page load speeds and user experience"
+      }
+    ],
+    "timeline": {
+      "duration": "4 weeks",
+      "start_date": "July 1, 2025",
+      "end_date": "July 29, 2025"
+    },
+    "deliverables": [
+      {
+        "content": "Complete Figma design files with all page layouts and component specifications"
+      },
+      {
+        "content": "Production-ready HTML/CSS code with responsive design implementation"
+      },
+      {
+        "content": "Comprehensive SEO audit report with implemented optimizations"
+      },
+      {
+        "content": "Performance optimization checklist with before/after metrics"
+      },
+      {
+        "content": "Google Analytics configuration documentation and training materials"
+      }
+    ],
+    "payment": {
+      "total_fee": "PKR 250,000",
+      "schedule": "50% upfront payment, 50% upon final delivery and client approval",
+      "method": "Bank transfer to UBL account as specified in separate payment details"
+    },
+    "assumptions": [
+      {
+        "content": "Client will provide hosting access and all necessary content including images, text, and product information"
+      },
+      {
+        "content": "Design revisions are limited to 2 rounds of feedback to maintain project timeline"
+      },
+      {
+        "content": "Client will provide timely feedback and approvals at each project milestone"
+      },
+      {
+        "content": "All required third-party integrations and APIs will be accessible and functional"
+      }
+    ],
+    "additional_terms_title": "Confidentiality",
+    "additional_terms_content": "All project information, client data, and proprietary business details shall remain strictly confidential and may not be shared with third parties or used for any purpose other than project completion.",
+    "termination_clause": "Either party may terminate this agreement with 7 days' written notice. In the event of termination, work completed up to the termination date will be billed proportionally based on project milestones achieved.",
+    "final_section_title": "Approval and Signatures",
+    "approval_clause": "This Statement of Work represents the complete agreement between the parties and becomes binding upon signature by both the Client and Service Provider."
+  },
+  "formatting": {
+    "page_margins": {
+      "top": "1 inch",
+      "bottom": "1 inch",
+      "left": "1 inch",
+      "right": "1 inch"
+    },
+    "font": {
+      "family": "Arial",
+      "size": "12pt"
+    },
+    "line_spacing": "1.15",
+    "section_spacing": "12pt",
+    "numbering": {
+      "sections": "numeric",
+      "bullets": "bullet_points"
+    },
+    "page_numbering": true
+  }
+}

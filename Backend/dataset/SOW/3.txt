@@ -1,0 +1,15 @@
+STATEMENT OF WORK
+
+Effective June 1, 2025, between DevWorks (“Provider”) and RetailTech (“Client”).
+
+1. Scope: Develop eCommerce website with 5 pages and payment integration.
+
+2. Timeline: 3 months.
+
+3. Payment: Milestone-based — 50% on kickoff, 50% on deployment.
+
+4. Revisions allowed: 2 rounds.
+
+5. Scope changes require written addendum.
+
+Signed by both...

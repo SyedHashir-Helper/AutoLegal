@@ -1,0 +1,15 @@
+SERVICE AGREEMENT
+
+This Service Agreement is made on May 1, 2025, between CloudServe (“Provider”) and ShopEase (“Client”).
+
+1. SLA Uptime: 99.9%.
+
+2. Maximum response time: 4 hours.
+
+3. Service credits for downtime: Yes — credit of 5% of monthly fee when uptime falls below SLA.
+
+4. Scope changes: Require written approval.
+
+5. Renewal: Auto-renew unless canceled 30 days before expiry.
+
+SIGNED...

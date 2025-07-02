@@ -1,0 +1,169 @@
+{
+  "document_type": "Non-Disclosure Agreement",
+  "template_version": "1.0",
+  "structure": {
+    "title": {
+      "type": "heading",
+      "level": 1,
+      "content": "Non-Disclosure Agreement (NDA)"
+    },
+    "parties": {
+      "type": "section",
+      "content": "This Non-Disclosure Agreement (\"Agreement\") is entered into on {{agreement_date}}, between:",
+      "subsections": {
+        "disclosing_party": {
+          "type": "party_details",
+          "label": "Disclosing Party:",
+          "fields": {
+            "company_name": "{{disclosing_party.company_name}}",
+            "address": "{{disclosing_party.address}}",
+            "email": "{{disclosing_party.email}}"
+          }
+        },
+        "receiving_party": {
+          "type": "party_details",
+          "label": "Receiving Party:",
+          "fields": {
+            "name": "{{receiving_party.name}}",
+            "address": "{{receiving_party.address}}",
+            "email": "{{receiving_party.email}}"
+          }
+        }
+      }
+    },
+    "sections": [
+      {
+        "number": "1",
+        "title": "Confidential Information",
+        "type": "definition_section",
+        "content": "\"Confidential Information\" refers to any data, materials, or information, including but not limited to {{confidential_info_types}}, that is proprietary to the Disclosing Party and not publicly available."
+      },
+      {
+        "number": "2",
+        "title": "Obligations of Receiving Party",
+        "type": "obligations_section",
+        "content": "The Receiving Party agrees to:",
+        "subsections": {
+          "type": "bullet_list",
+          "items": [
+            {
+              "content": "Maintain the confidentiality of the information and not disclose it to any third party without prior written consent."
+            },
+            {
+              "content": "Use the Confidential Information solely for the purpose of {{purpose_of_disclosure}}."
+            }
+          ]
+        }
+      },
+      {
+        "number": "3",
+        "title": "Exclusions",
+        "type": "exclusions_section",
+        "content": "Confidential Information does not include information that:",
+        "subsections": {
+          "type": "bullet_list",
+          "items": [
+            {
+              "content": "Was already known to the Receiving Party before disclosure;"
+            },
+            {
+              "content": "Is or becomes publicly available through no fault of the Receiving Party;"
+            },
+            {
+              "content": "Is received lawfully from a third party without restriction;"
+            },
+            {
+              "content": "Is independently developed by the Receiving Party without reference to the Confidential Information."
+            }
+          ]
+        }
+      },
+      {
+        "number": "4",
+        "title": "Term",
+        "type": "term_section",
+        "content": "This Agreement shall remain in effect for {{agreement_duration}} from the date of signature unless terminated earlier by mutual written agreement."
+      },
+      {
+        "number": "5",
+        "title": "Intellectual Property",
+        "type": "ip_section",
+        "content": "All Confidential Information remains the sole property of the Disclosing Party. This Agreement does not grant the Receiving Party any rights or licenses in the Confidential Information except as expressly stated herein."
+      },
+      {
+        "number": "6",
+        "title": "Legal Remedies",
+        "type": "remedies_section",
+        "content": "The Receiving Party agrees that any unauthorized disclosure or use of Confidential Information may cause irreparable harm to the Disclosing Party, and that the Disclosing Party shall be entitled to seek injunctive relief in the event of such breach, in addition to other remedies available under law."
+      },
+      {
+        "number": "7",
+        "title": "Governing Law",
+        "type": "governing_law_section",
+        "content": "This Agreement shall be governed by and construed in accordance with the laws of {{governing_law}}. All disputes arising out of or related to this Agreement shall be subject to the exclusive jurisdiction of the courts of {{jurisdiction}}."
+      },
+      {
+        "number": "8",
+        "title": "Entire Agreement",
+        "type": "entire_agreement_section",
+        "content": "This Agreement constitutes the entire understanding between the parties and supersedes all prior agreements, written or oral, relating to the subject matter herein."
+      }
+    ],
+    "signature_section": {
+      "type": "signature_block",
+      "content": "IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.",
+      "signatures": {
+        "disclosing_party": {
+          "label": "Disclosing Party Signature:",
+          "fields": {
+            "name": "{{disclosing_party.signatory_name}}",
+            "title": "{{disclosing_party.signatory_title}}"
+          }
+        },
+        "receiving_party": {
+          "label": "Receiving Party Signature:",
+          "fields": {
+            "name": "{{receiving_party.signatory_name}}",
+            "title": "{{receiving_party.signatory_title}}"
+          }
+        }
+      }
+    }
+  },
+  "formatting": {
+    "page_margins": {
+      "top": "1 inch",
+      "bottom": "1 inch",
+      "left": "1 inch",
+      "right": "1 inch"
+    },
+    "font": {
+      "family": "Arial",
+      "size": "12pt"
+    },
+    "line_spacing": "1.15",
+    "section_spacing": "12pt",
+    "numbering": {
+      "sections": "numeric",
+      "bullets": "bullet_points"
+    }
+  },
+  "placeholders": [
+    "{{agreement_date}}",
+    "{{disclosing_party.company_name}}",
+    "{{disclosing_party.address}}",
+    "{{disclosing_party.email}}",
+    "{{receiving_party.name}}",
+    "{{receiving_party.address}}",
+    "{{receiving_party.email}}",
+    "{{confidential_info_types}}",
+    "{{purpose_of_disclosure}}",
+    "{{agreement_duration}}",
+    "{{governing_law}}",
+    "{{jurisdiction}}",
+    "{{disclosing_party.signatory_name}}",
+    "{{disclosing_party.signatory_title}}",
+    "{{receiving_party.signatory_name}}",
+    "{{receiving_party.signatory_title}}"
+  ]
+}

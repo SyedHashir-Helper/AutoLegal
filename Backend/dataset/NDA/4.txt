@@ -1,0 +1,15 @@
+UNILATERAL NON‑DISCLOSURE AGREEMENT
+
+This One‑Way NDA (“Agreement”) is dated June 15, 2025, between Creative Labs Ltd (“Disclosing Party”) and John Smith (“Recipient”).
+
+1. Confidential Information: Includes technical specs, customer data, pricing models, trade secrets.
+
+2. Recipient agrees to restrict usage and not share without written permission.
+
+3. Term: 2 years from date of signature.
+
+4. Permitted Disclosure: Required by law or court order (provided notice is given).
+
+5. Return of Materials upon request.
+
+SIGNED by parties...

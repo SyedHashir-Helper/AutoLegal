@@ -1,0 +1,15 @@
+SERVICE AGREEMENT
+
+Started July 2, 2025, between SecureIT (“Provider”) and FinSecure (“Client”).
+
+1. SLA: 99.9%.
+
+2. Response time: 1 hour.
+
+3. Service credits: 10% monthly credit on downtime.
+
+4. Scope change request: Email ok, written approval required.
+
+5. Renewal: Parties must notify 30 days in advance.
+
+EXECUTED...

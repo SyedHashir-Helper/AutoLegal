@@ -1,0 +1,170 @@
+{
+  "document_type": "Software as a Service (SaaS) Agreement",
+  "template_version": "1.0",
+  "structure": {
+    "title": {
+      "type": "heading",
+      "level": 1,
+      "content": "{{document_type}}"
+    },
+    "header_section": {
+      "type": "header_details",
+      "content": [
+        {
+          "label": "Effective Date:",
+          "value": "{{effective_date}}"
+        }
+      ]
+    },
+    "parties": {
+      "type": "section",
+      "content": "Parties:",
+      "subsections": {
+        "provider": {
+          "type": "party_details",
+          "label": "Provider:",
+          "fields": {
+            "company_name": "{{provider.company_name}}",
+            "address": "{{provider.address}}",
+            "email": "{{provider.email}}"
+          }
+        },
+        "customer": {
+          "type": "party_details",
+          "label": "Customer:",
+          "fields": {
+            "company_name": "{{customer.company_name}}",
+            "address": "{{customer.address}}",
+            "email": "{{customer.email}}"
+          }
+        }
+      }
+    },
+    "sections": [
+      {
+        "number": "1",
+        "title": "Services",
+        "type": "services_section",
+        "content": "{{provider.company_name}} agrees to provide {{service_description}} under the terms of this Agreement."
+      },
+      {
+        "number": "2",
+        "title": "Subscription & Fees",
+        "type": "subscription_section",
+        "content": "The Customer shall pay {{subscription_fee}} for access to the {{service_plan}}. {{payment_terms}}"
+      },
+      {
+        "number": "3",
+        "title": "Service Level Agreement (SLA)",
+        "type": "sla_section",
+        "content": "{{provider.company_name}} guarantees {{uptime_guarantee}} uptime monthly. {{maintenance_notice}}"
+      },
+      {
+        "number": "4",
+        "title": "Data Ownership",
+        "type": "data_section",
+        "content": "{{data_ownership_clause}}"
+      },
+      {
+        "number": "5",
+        "title": "Confidentiality",
+        "type": "confidentiality_section",
+        "content": "{{confidentiality_clause}}"
+      },
+      {
+        "number": "6",
+        "title": "Term & Termination",
+        "type": "term_section",
+        "content": "{{term_and_termination_clause}}"
+      },
+      {
+        "number": "7",
+        "title": "Limitation of Liability",
+        "type": "liability_section",
+        "content": "{{liability_limitation_clause}}"
+      },
+      {
+        "number": "8",
+        "title": "{{additional_sections_title}}",
+        "type": "additional_section",
+        "content": "{{additional_sections_content}}"
+      },
+      {
+        "number": "9",
+        "title": "Governing Law",
+        "type": "governing_law_section",
+        "content": "{{governing_law_clause}}"
+      }
+    ],
+    "signature_section": {
+      "type": "signature_block",
+      "content": "IN WITNESS WHEREOF, the parties have executed this Agreement.",
+      "signatures": {
+        "provider": {
+          "label": "{{provider.company_name}}",
+          "fields": {
+            "name": "Name: {{provider.signatory_name}}",
+            "title": "Title: {{provider.signatory_title}}"
+          }
+        },
+        "customer": {
+          "label": "{{customer.company_name}}",
+          "fields": {
+            "name": "Name: {{customer.signatory_name}}",
+            "title": "Title: {{customer.signatory_title}}"
+          }
+        }
+      }
+    }
+  },
+  "input_data": {
+    "document_type": "Software as a Service (SaaS) Agreement",
+    "effective_date": "June 29, 2025",
+    "provider": {
+      "company_name": "CloudNova Inc.",
+      "address": "123 Silicon Drive, San Francisco, CA, USA",
+      "email": "support@cloudnova.io",
+      "signatory_name": "Julia Chen",
+      "signatory_title": "CEO"
+    },
+    "customer": {
+      "company_name": "PakBiz Solutions Pvt. Ltd.",
+      "address": "Office #18, Tech Tower, Islamabad, Pakistan",
+      "email": "contact@pakbizsolutions.com",
+      "signatory_name": "Ali Raza",
+      "signatory_title": "Director Operations"
+    },
+    "service_description": "access to its cloud-based inventory management platform (\"Service\")",
+    "subscription_fee": "$199/month",
+    "service_plan": "Professional Plan",
+    "payment_terms": "Payment is due on the 1st of each month via credit card.",
+    "uptime_guarantee": "99.9%",
+    "maintenance_notice": "Scheduled maintenance shall be notified 24 hours in advance.",
+    "data_ownership_clause": "Customer retains ownership of all uploaded data. CloudNova will not access or share Customer data except as required for service performance or by law.",
+    "confidentiality_clause": "Each party agrees to maintain the confidentiality of all proprietary information shared during the term of this Agreement.",
+    "term_and_termination_clause": "This Agreement remains in effect for 12 months and auto-renews unless either party provides 30 days' written notice before the end of the term.",
+    "liability_limitation_clause": "CloudNova shall not be liable for any indirect damages exceeding the monthly subscription fee.",
+    "additional_sections_title": "Support & Maintenance",
+    "additional_sections_content": "Provider shall provide technical support during standard business hours and regular system maintenance to ensure optimal service performance.",
+    "governing_law_clause": "This Agreement shall be governed by the laws of the State of California, USA."
+  },
+  "formatting": {
+    "page_margins": {
+      "top": "1 inch",
+      "bottom": "1 inch",
+      "left": "1 inch",
+      "right": "1 inch"
+    },
+    "font": {
+      "family": "Arial",
+      "size": "12pt"
+    },
+    "line_spacing": "1.15",
+    "section_spacing": "12pt",
+    "numbering": {
+      "sections": "numeric",
+      "bullets": "bullet_points"
+    },
+    "page_numbering": true
+  }
+}

@@ -1,0 +1,15 @@
+SERVICE AGREEMENT
+
+This Contract dated March 15, 2025, between NetLink Services (“Provider”) and EduTech (“Client”).
+
+1. SLA uptime: 99.7%.
+
+2. Response time: 3 hours.
+
+3. Downtime compensation: You get 5% per day of monthly fee.
+
+4. Changes to scope must be approved by both parties.
+
+5. Renewal begins automatically unless declined 30 days in advance.
+
+SIGNED...
