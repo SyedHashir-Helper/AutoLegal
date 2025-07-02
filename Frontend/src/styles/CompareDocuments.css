@@ -1,0 +1,156 @@
+
+
+/* src/styles/CompareDocuments.css */
+
+.compare-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.compare-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1f2937;
+  margin-bottom: 2rem;
+}
+
+.compare-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .compare-flex {
+    flex-direction: row;
+  }
+}
+
+.compare-card {
+  flex: 1;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e5e7eb;
+}
+
+.compare-card .ant-card-head-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.compare-center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.compare-result {
+  background: #f9fafb;
+  border: 1px solid #d1d5db;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.compare-result pre {
+  background: #f3f4f6;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.85rem;
+}
+
+.compare-history {
+  margin-top: 3rem;
+}
+
+.compare-history .ant-list-item {
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.compare-history .ant-list-item:hover {
+  background: #f3f4f6;
+}
+
+.compare-history .ant-list-item-meta-title {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.compare-history .ant-list-item-meta-description {
+  color: #6b7280;
+}
+
+/* 
+.compare-before {
+  background-color: #fef4f4;
+  padding: 0.5rem;
+  border-left: 4px solid #ff4d4f;
+}
+
+.compare-after {
+  background-color: #f0fff4;
+  padding: 0.5rem;
+  border-left: 4px solid #52c41a;
+} */
+
+
+.compare-history-item {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.compare-history-item:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.ant-modal-title {
+  text-align: center;
+  font-size: 1.5rem !important;
+  font-weight: bold;
+  color: #3b82f6; /* Tailwind primary-blue */
+}
+
+.highlight-card {
+  border: 1px solid #e0f2f1;
+  background-color: #ecfdf5;
+  box-shadow: 0 2px 10px rgba(0, 128, 128, 0.05);
+  border-radius: 12px;
+}
+
+
+.compare-clause {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background-color: #f9fafb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.compare-clause-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #111827;
+}
+
+.compare-before,
+.compare-after {
+  padding: 0.75rem;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+  background-color: #fef2f2;
+  border-left: 4px solid #ef4444;
+  white-space: pre-wrap;
+}
+
+.compare-after {
+  background-color: #ecfdf5;
+  border-left-color: #10b981;
+}

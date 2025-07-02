@@ -1,0 +1,120 @@
+/* Container */
+.summarize-container {
+  width: 100%;
+}
+
+/* Title */
+.summarize-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Flex wrapper for cards */
+.summarize-flex {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* Card styling */
+.summarize-card {
+  flex: 1;
+  min-width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Ensure dropdown and upload take full space inside card */
+.summarize-card .ant-select,
+.summarize-card .ant-upload {
+  width: 100%;
+  flex-grow: 1;
+}
+
+/* Drag and drop box */
+.ant-upload.ant-upload-drag {
+  height: 100%;
+  padding: 1.5rem;
+  border: 2px dashed #d9d9d9;
+  border-radius: 8px;
+  background-color: #fafafa;
+  transition: border-color 0.3s ease;
+}
+.ant-upload.ant-upload-drag:hover {
+  border-color: #1890ff;
+}
+
+/* Buttons section */
+.summarize-center {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.summarize-box {
+  background: #f6f8fa;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 1rem;
+}
+/* Modal container */
+.summarize-modal-title {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.summarize-modal-content {
+  padding-top: 1rem;
+}
+
+/* Section wrapper */
+.summarize-section {
+  margin-bottom: 2rem;
+}
+
+/* Section title with icons */
+.summarize-section-title {
+  color: #34495e;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  border-left: 4px solid #1890ff;
+  padding-left: 0.75rem;
+}
+
+/* Paragraph text */
+.summarize-paragraph {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #444;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-left: 4px solid #91d5ff;
+  border-radius: 6px;
+}
+
+/* Box for explanation & definitions */
+.summarize-box {
+  background-color: #f0f5ff;
+  border: 1px solid #d6e4ff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.3s ease;
+}
+.summarize-box:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Label for clause or term */
+.summarize-label {
+  font-weight: 600;
+  color: #10239e;
+  display: block;
+  margin-bottom: 0.5rem;
+}

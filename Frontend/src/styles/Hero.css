@@ -1,0 +1,157 @@
+.hero-merged {
+  background-image: url('https://img.freepik.com/premium-photo/3d-glossy-purple-background-with-glowing-heart-scales-justice-perfect-human-rights-day_980716-770428.jpg?w=826');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-merged-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.65); /* dark overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+  z-index: 1;
+}
+
+.hero-merged-content {
+  color: #fff;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.hero-merged-badge {
+  display: inline-block;
+  background: #6366f1;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  font-size: 0.875rem;
+  box-shadow: 0 4px 20px rgba(99, 102, 241, 0.4);
+}
+
+.hero-merged-title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.brand-gradient {
+  background: linear-gradient(to right, #6366f1, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-merged-subtitle {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #e5e7eb;
+}
+
+
+.bg-primary-600 {
+  background-color: #1e40af; /* Deep blue */
+}
+
+.bg-primary-700 {
+  background-color: #1e3a8a;
+}
+
+button:hover {
+  transform: scale(1.02);
+}
+
+.generate-doc-btn {
+  margin-top: 2rem; /* More top margin */
+  padding: 8px 20px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: transparent; /* Fully transparent */
+  border: 2px solid rgba(255, 255, 255, 0.4); /* Subtle white border */
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  letter-spacing: 0.4px;
+  backdrop-filter: none;
+  box-shadow: none;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.generate-doc-btn:hover {
+   /* Slight highlight on hover */
+  border-color: rgba(255, 255, 255, 0.6);
+  transform: translateY(-2px);
+}
+
+.generate-doc-btn:active {
+  transform: scale(0.97);
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-spin {
+  animation: iconPulse 1.4s infinite ease-in-out;
+  color: #ffffff;
+}
+
+@keyframes iconPulse {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.2) rotate(10deg);
+  }
+}
+
+.transparent-btn {
+  margin-top: 3rem;
+  padding: 8px 20px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #3b82f6;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  letter-spacing: 0.4px;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 0 transparent;
+}
+
+.transparent-btn:hover {
+  background-color: rgba(59, 130, 246, 0.1);
+  box-shadow: 0 8px 24px rgba(59, 130, 246, 0.2);
+  transform: translateY(-2px);
+}
+
+.transparent-btn:active {
+  transform: scale(0.98);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+}

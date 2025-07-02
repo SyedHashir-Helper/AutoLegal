@@ -1,0 +1,64 @@
+.autolegal-footer {
+  background: linear-gradient(135deg, var(--primary-900), var(--secondary-900));
+  color: #f1f5f9;
+  padding: 2rem 1.5rem 1rem;
+  margin-top: 4rem;
+  font-size: 0.95rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-brand .brand-text {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #ffffff, #cbd5e1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-subtext {
+  font-size: 0.9rem;
+  color: #e2e8f0;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-link {
+  color: #f8fafc;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #facc15; /* Optional: yellow hover */
+}
+
+.footer-bottom {
+  margin-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #e2e8f0;
+}
